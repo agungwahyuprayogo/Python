@@ -17,6 +17,9 @@ print(f"sekarang adalah angka ke -> {angka_1}") # disini kita intro dulu angka d
 while angka_1 < 5: # masuk ke while, selama kalo masih kurang dari 5 maka akan ..
     angka_1 += 1 # nambah 1 angka tiap looping
     
+    if angka_1 == 3: # belum masukin continue, jadi kalo sampe 3 print "njay dah 3"
+        print("njay dah 3")
+
     print(f"oke sekarang dah ke : {angka_1}") # nampilin angka sekarang
     print(f"okee") # nampilin print kedua selain angka sekarang
 
@@ -25,6 +28,7 @@ print("cukup\n")
 """
 sekilas program diatas dimulai dari 0
 ketika 0 kurang dari 5
+pas dah sampe 3, print "njay dah 3"
 angka selalu nambah 1 dan dibahawahnya ada tulisan oke skrg.. okee
 kalo udah sampe 5 berhenti sampe tulisan cukup
 
