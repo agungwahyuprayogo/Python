@@ -16,3 +16,15 @@ function yang kita buat kan hello .. {nama} gimana ...
 nah si "agung" ini masuk ke argument nama 
 gituu
 """
+
+def undangan(nama):
+    print(f"haii {nama}.. makasih ya duah dateng ke nikahan kitaa..")
+
+undangan("agoenk")
+
+input_name = input("Masukan nama Anda : ")
+
+def kondangan(input_name):
+    print(f"Selamat Datang {input_name}. Anda masuk daftar List tamu VIP, silahkan belok kanan.")
+
+kondangan(input_name)
